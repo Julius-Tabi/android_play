@@ -28,9 +28,9 @@
 .container-1 {
     display: flex;
     width: 100%;
-    height: auto;
+    // height: auto;
     margin: 5px auto;
-    margin-left: 5%;
+    margin-left: 15% 0;
     justify-content: space-between;
     flex-direction: column;
     background-color: white;
@@ -43,7 +43,7 @@
     padding: 10px;
     margin: 1px;
     align-items: center;
-    
+    margin-left: 0 0;
 }
 
 .box-1 {
@@ -54,13 +54,6 @@
     padding-bottom: 0px;
 }
 
-// .box-2 {
-//     // flex: 1;
-//     width: 100%;
-//     align-items: center;
-//     // padding-top: 15px;
-// }
-
 .box-2 {
     // flex: 1;
     width: 100%;
@@ -70,35 +63,42 @@
     align-items: center;
 }
 
-.box-1 ion-header {
-    padding-left: 10px;
+.box-1 ion-title {
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 0;
     align-items: center;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     // padding-left: 0;
     // text-align: left;
     // color: gray;
-    font-size:medium;
+    font-size:large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
     color:#B4B5B9;
+
 }
 
 .box-1 p {
-    padding-left: 10px;
+    padding-left: 30px;
     font-weight:bolder;
     font-size: x-large;
     text-align: left;
     margin-top: 3px;
     color: #616872;
+
     
 }
 
-.box-1 h{
-    padding-left: 10px;
-    color: #D2D5DA;
+.box-1 h6{
+    padding-left: 30px;
+    padding-right: 17px;
+    color: #B0B3B8;
     object-fit: contain;
     text-align: center;
+    align-items: center;
+    font-size: 15px;
+    padding-bottom: 5%;
 
 }
 
@@ -106,23 +106,25 @@ img {
     // border-radius: 8px;
     // object-fit: scale-down;
     margin-left: 0;
+    padding-left: 0;
     object-fit: cover;
     object-position: 20% 0;
     width: 428px;
-    height: 337px;
-    background-size: contain;
+    // height: 337px;
+    // background-size: contain;
     background-color: white;
     // clip: rect();
     align-items: center;
 }
 
-.container-1 ion-button{
-    text-align: center;
+.container-2 ion-button{
+    // text-align: center;
+    align-items: center;
     margin-left: 0px 0;
      color:  white;
      object-fit: fill;
-     width: 60%;
-     height: 40px;
+     width: 100%;
+     height: 35px;
      font-weight: bolder;
      font-size: small;
     //  font-family: Arial, Helvetica, sans-serif;
@@ -130,3 +132,12 @@ img {
     // font-family: sans-serif;
     // font-family: inherit;
 }
+.container-2{
+margin-top: 10%;
+    padding-top: 50%;
+}
+
+.slides{
+color: gray;
+}
+

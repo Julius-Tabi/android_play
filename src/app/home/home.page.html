@@ -2,12 +2,13 @@
     <div class="container-1">
         <div class="box-1">
             <img src="../../assets/image/istockphoto-859736630-170667a.jpg" alt="">
-            <ion-header>FUTURE</ion-header><br>
-            <p>Dive Into Self-Driving Cars</p>
-            <h>A self-driving car is a vehicle that is capable of sensing it's environment navigating</h>
+            <ion-title>FUTURE</ion-title><br>
+            <p>Dive Into Self-<br>
+            Driving Cars<br></p>
+            <h6>A self-driving car is a vehicle that is capable of sensing it's environment and navigating...</h6>
         </div>
         <div class="box-2">
-            <ion-slides pager [options]="{onlyExternal: false}">
+            <ion-slides pager class="slides" style="color: gray;">
 
                 <ion-slide style="background-color: white color gray">
                   <h2></h2>
@@ -20,18 +21,26 @@
                 <ion-slide style="background-color: white">
                   <h2></h2>
                 </ion-slide>
-              
-              </ion-slides>
 
-              <!-- <ion-buttons slot="primary">
-                <ion-button color="secondary" shape="round" size="small">
-                    <ion-button >GET STARTED</ion-button>
-                </ion-button>
-              </ion-buttons> -->
+                <ion-slide style="background-color: white">
+                    <h2></h2>
+                </ion-slide>
+
+                <ion-slide style="background-color: white">
+                  <h2></h2>
+                </ion-slide>
               
-              
+              </ion-slides>                    
         </div>
-        <ion-button style="--background: #410ADF" shape="round" size="medium">GET STARTED</ion-button>
+        <div class="container-2">
+            <ion-button href="/register" style="--background: #410ADF" shape="round" size="medium">GET STARTED</ion-button>
+        </div>
+        
     </div>
-
+    
 </ion-content>
+<!-- install ionic 
+npm i @ionic/lab
+run ionic 
+ionic lab -->
+
