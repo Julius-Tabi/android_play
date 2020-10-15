@@ -1,10 +1,16 @@
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
 .Container {
     display: flex;
     width: 100%;
     // height: auto;
     margin: 5px auto;
     margin-left: 15% 0;
-    justify-content: space-between;
+    // justify-content: space-between;
     flex-direction: column;
     background-color: white;
     align-items: center;
@@ -12,61 +18,98 @@
 }
 
 .Container div {
-    border: 1px #ccc solid;
+    // border: 1px #ccc solid;
     padding: 10px;
     margin: 1px;
     align-items: center;
     margin-left: 0 0;
 }
 
-.Container ion-title{
-font-size: xx-large;
-font-weight: lighter;
-font-family: 'Raleway', sans-serif;
-margin-top: 15%;
-margin-bottom: 15%;
-color: white;
-
-// padding: 5px;
+.Container ion-title {
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 15%;
+    margin-bottom: 15%;
+    color: white;
+    // padding: 5px;
 }
 
-.box-1{
+.box-1 {
     background-color: #5321E2;
     width: 100%;
     align-items: center;
     text-align: center;
     align-items: flex-start;
 }
-.box-2{
-width: 100%;
-height: 520px;
-border-radius: 10%;
-background-color: whitesmoke;
-margin-top: 0px;
-align-items: center;
-}
-.box-2 ion-header{
-font-weight: bold;
-padding-left: 10px;
-font-size: large;
-}
-.box-1 ion-item{
 
-
+.box-2 {
+    width: 100%;
+    // height: 520px;
+    border-radius: 10%;
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    align-items: center;
+    text-align: center;
+    object-fit: cover;
+    border: 1px #ccc solid;
 }
 
-.container ion-button{
+.box-2 ion-header {
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: large;
+    background-color: white;
+    text-align: left;
+    color: black;
+}
+
+.box-2 ion-item {
+    --border-color: var(--ion-color-dander, purple);
+    // text-decoration: underline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+.Container ion-button {
     text-align: center;
     align-items: center;
     margin-left: 0px 0;
-     color:  white;
-     object-fit: fill;
-     width: 100%;
-     height: 35px;
-     font-weight: bolder;
-     font-size: small;
+    color: white;
+    object-fit: fill;
+    width: 100%;
+    height: 35px;
+    font-weight: bolder;
+    font-size: small;
     //  font-family: Arial, Helvetica, sans-serif;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     // font-family: sans-serif;
     // font-family: inherit;
 }
+
+.box-2 p {
+    text-align: left;
+    color: gray;
+    font-size: 10px;
+    font-weight: 900;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    background-color: white;
+    align-items: center;
+}
+
+.box-3 p {
+    font-size: 10px;
+    font-weight: 900;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: gray;
+    // flex-direction: row;
+}
+
+// .box-3 a {
+//     padding-left: 50%;
+// }
