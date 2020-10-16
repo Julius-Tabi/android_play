@@ -1,37 +1,45 @@
 <ion-content>
     <div id="Container">
-        <div id="title">
+        <div id="title" style="top: 0;">
             <ion-title>Sign up</ion-title>
         </div>
+        
+        <div id="register">
+            <!-- <div id="header"> -->
+                
+            <!-- </div> -->
 
-        <div id="box-1">
+            <!-- <div id="topP"> -->
+                <h1>Hello</h1>
+                <p>Create an account to continue</p>
+            <!-- </div> -->
 
-            <h1>Hello</h1>
-            <p>Create an account to continue</p>
-            <ion-list>
+            <div id="username">
                 <ion-item>
                     <ion-input placeholder="Username"></ion-input>
                 </ion-item>
+            </div>
 
+            <div id="email">
                 <ion-item>
                     <ion-input placeholder="Email Address"></ion-input>
                 </ion-item>
-                <ion-item>
+            </div>
 
-                    <ion-input name="password" placeholder="Password" [type]="showpassword ? 'text' : 'password'"></ion-input>
+            <div id="password">
+                <ion-item>
+                    <ion-input name="password" placeholder="Password" [type]="showpassword ? 'text' : 'password'">
+                    </ion-input>
                     <ion-icon slot="end" [name]="passwordToggleIcon" (click)="togglePassword()"></ion-icon>
                 </ion-item>
+            </div>
 
-            </ion-list>
-
-            <ion-button style="--background: #410ADF" shape="round" size="medium">CREATE</ion-button>
-
-
-
-            <p style="text-align: center;">Already have an account? <a href="https://example.com" style="padding-left: 20px; color: #5A6573; text-decoration: none;">Sign Up</a></p>
+            <ion-button style="--background: #410ADF; width: 60%; align-items: center;" shape="round" size="medium">
+                CREATE</ion-button>
+            <p1 style="text-align: center;">Already have an account? <a href="https://example.com"
+                    style="padding-left: 20px; color: #5A6573; text-decoration: none;">Sign Up</a></p1>
 
         </div>
-
 
     </div>
 
