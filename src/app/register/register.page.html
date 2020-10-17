@@ -3,16 +3,10 @@
         <div id="title" style="top: 0;">
             <ion-title>Sign up</ion-title>
         </div>
-        
-        <div id="register">
-            <!-- <div id="header"> -->
-                
-            <!-- </div> -->
 
-            <!-- <div id="topP"> -->
-                <h1>Hello</h1>
-                <p>Create an account to continue</p>
-            <!-- </div> -->
+        <div id="register">
+            <h1>Hello</h1>
+            <p>Create an account to continue</p>
 
             <div id="username">
                 <ion-item>
@@ -33,11 +27,12 @@
                     <ion-icon slot="end" [name]="passwordToggleIcon" (click)="togglePassword()"></ion-icon>
                 </ion-item>
             </div>
-
-            <ion-button style="--background: #410ADF; width: 60%; align-items: center;" shape="round" size="medium">
-                CREATE</ion-button>
-            <p1 style="text-align: center;">Already have an account? <a href="https://example.com"
-                    style="padding-left: 20px; color: #5A6573; text-decoration: none;">Sign Up</a></p1>
+            <div class="container-2">
+                <ion-button href="/register" style="--background: #410ADF" shape="round" size="medium">GET STARTED</ion-button>
+            </div>
+            <!-- <ion-button style="--background: #410ADF;" shape="round" size="medium">
+                CREATE</ion-button> -->
+            <p1 style="text-align: center;">Already have an account? <a href="https://example.com" style="padding-left: 20px; color: #5A6573; text-decoration: none;">Sign Up</a></p1>
 
         </div>
 
