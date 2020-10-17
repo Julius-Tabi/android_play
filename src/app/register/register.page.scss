@@ -52,6 +52,13 @@ ion-content {
     padding-left: 0;
 }
 
+.bar-header {
+    border: 0px !important;
+    border-bottom-color: transparent !important;
+    background-image: none !important;
+    border-bottom: none !important;
+}
+
 #username ion-item {
     display: flex;
     flex-direction: column;
