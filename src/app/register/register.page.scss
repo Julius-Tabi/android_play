@@ -168,6 +168,7 @@ ion-title {
 p {
     display: flex;
     align-content: center;
+    text-align: left;
     display: flex;
     color: gray;
     font-size: 10px;
@@ -202,7 +203,13 @@ ion-item {
     justify-content: center;
     display: flex;
     padding-top: 0;
+    padding-bottom: 0;
+    font-size: small;
+}
+
+ion-input {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: small;
+    padding-top: 0;
+    padding-bottom: 0;
 }
